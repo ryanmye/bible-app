@@ -14,6 +14,7 @@
     "pods": "npm run --prefix apps/mobile pods",
     "macos:init": "npm run --prefix apps/mobile macos:init",
     "seed:build": "tsx scripts/build-seed-db.ts",
+    "smoke": "tsx scripts/smoke-test.ts",
     "install:all": "npm install && npm install --prefix apps/mobile"
   },
   "devDependencies": {
