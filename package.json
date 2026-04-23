@@ -1,0 +1,28 @@
+{
+  "name": "bible-app",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Local-first Bible reader for macOS and iOS, built with React Native 0.81.",
+  "scripts": {
+    "start": "npm --prefix apps/mobile run start",
+    "ios": "npm --prefix apps/mobile run ios",
+    "macos": "npm --prefix apps/mobile run macos",
+    "android": "npm --prefix apps/mobile run android",
+    "test": "npm --prefix apps/mobile run test",
+    "lint": "npm --prefix apps/mobile run lint",
+    "pods:ios": "cd apps/mobile/ios && pod install",
+    "pods:macos": "pod install --project-directory=apps/mobile/macos",
+    "seed:build": "npx ts-node --transpile-only scripts/build-seed-db.ts",
+    "seed:smoke": "npx ts-node --transpile-only scripts/smoke-seed.ts"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.6.0",
+    "better-sqlite3": "^12.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,6 @@
+* text=auto eol=lf
+
+# Binary seed databases
+apps/mobile/assets/bibles/*.sqlite binary
+apps/mobile/assets/bibles/*.sqlite3 binary
+apps/mobile/assets/bibles/*.db binary
