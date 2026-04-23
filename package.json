@@ -17,6 +17,9 @@
     "install:all": "npm install && npm install --prefix apps/mobile"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.5",
+    "better-sqlite3": "^11.7.0",
     "tsx": "^4.19.2",
     "typescript": "^5.8.3"
   },
