@@ -64,6 +64,9 @@ vendor/bundle/
 # Seed output (built from scripts; not committed)
 apps/mobile/assets/bibles/seed.sqlite
 
+# Local caches
+.cache/
+
 # Logs
 *.log
 logs/
