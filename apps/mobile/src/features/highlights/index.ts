@@ -1,0 +1,1 @@
+export { HighlightsScreen } from './HighlightsScreen';

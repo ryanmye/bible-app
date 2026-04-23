@@ -1,0 +1,46 @@
+# OS / editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# Build artifacts
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# React Native / native
+# iOS
+apps/mobile/ios/Pods/
+apps/mobile/ios/build/
+apps/mobile/ios/*.xcworkspace
+apps/mobile/ios/.xcode.env.local
+# macOS
+apps/mobile/macos/Pods/
+apps/mobile/macos/build/
+apps/mobile/macos/*.xcworkspace
+apps/mobile/macos/.xcode.env.local
+# Android
+apps/mobile/android/.gradle/
+apps/mobile/android/app/build/
+apps/mobile/android/build/
+apps/mobile/android/local.properties
+
+# Metro
+.metro-health-check*
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Seed build cache
+scripts/.cache/
