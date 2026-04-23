@@ -1,0 +1,30 @@
+{
+  "name": "bible-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cross-platform Bible reader with multi-version comparison, notes, highlights, and pluggable cloud sync.",
+  "scripts": {
+    "start": "npm run --prefix apps/mobile start",
+    "ios": "npm run --prefix apps/mobile ios",
+    "macos": "npm run --prefix apps/mobile macos",
+    "android": "npm run --prefix apps/mobile android",
+    "typecheck": "npm run --prefix apps/mobile typecheck",
+    "test": "npm run --prefix apps/mobile test",
+    "lint": "npm run --prefix apps/mobile lint",
+    "pods": "npm run --prefix apps/mobile pods",
+    "macos:init": "npm run --prefix apps/mobile macos:init",
+    "seed:build": "tsx scripts/build-seed-db.ts",
+    "smoke": "tsx scripts/smoke-test.ts",
+    "install:all": "npm install && npm install --prefix apps/mobile"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.5",
+    "better-sqlite3": "^11.7.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,75 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# Build outputs
+dist/
+build/
+coverage/
+.turbo/
+.next/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Editor
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+
+# React Native / Metro
+.metro-health-check*
+.expo/
+.expo-shared/
+
+# iOS
+apps/mobile/ios/Pods/
+apps/mobile/ios/build/
+apps/mobile/ios/DerivedData/
+apps/mobile/ios/Podfile.lock.local
+apps/mobile/ios/.xcode.env.local
+apps/mobile/ios/*.xcworkspace/xcuserdata
+apps/mobile/ios/*.xcodeproj/xcuserdata
+
+# macOS target
+apps/mobile/macos/Pods/
+apps/mobile/macos/build/
+apps/mobile/macos/DerivedData/
+apps/mobile/macos/*.xcworkspace/xcuserdata
+apps/mobile/macos/*.xcodeproj/xcuserdata
+
+# Android
+apps/mobile/android/.gradle/
+apps/mobile/android/build/
+apps/mobile/android/app/build/
+apps/mobile/android/local.properties
+apps/mobile/android/.cxx/
+
+# Ruby / CocoaPods
+vendor/bundle/
+.bundle/
+
+# Seed output (built from scripts; not committed)
+apps/mobile/assets/bibles/seed.sqlite
+
+# Local caches
+.cache/
+
+# Logs
+*.log
+logs/
+
+# Test artifacts
+*.lcov
